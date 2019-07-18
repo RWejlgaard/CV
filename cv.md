@@ -41,9 +41,11 @@
 * Kubernetes
 
 ## Programming
-### Best
+### Excellent
 * Python
 * GO
+
+### Really Good
 * C#
 * C++
 * Java
@@ -111,9 +113,12 @@ The cloud team managed and maintained all server requirements for internal proje
 
 After joining the team I quickly found out I enjoyed the scripting and operation aspects of DevOps.
 
+Helped with Kubernetes, migrating legacy applications to run as microservices
+
 #### Too Long Didn't Read
 * I was hired during my education 
 * Worked as a Java Developer in the beginning, didn’t enjoy it 
 * Moved to DevOps and stayed until my education finished. 
 * Working with Saltstack and Python primarily. 
 * Helped getting Kubernetes started in the company
+* Migrated legacy applications to microservices

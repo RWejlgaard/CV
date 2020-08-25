@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=0.5cm, vmargin=0.4cm]{geometry}
+\usepackage[hmargin=0.2cm, vmargin=0.2cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -48,9 +48,9 @@ Last Updated on
 		\fontspec[Path = fonts/lato/]{Lato-Lig}\selectfont \color{headings} #2
 	} \\
 	\vspace{5pt}
-	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3}
+	\centering{ \color{headings}\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{9pt}{12pt}\selectfont #3}
 	\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
-	\vspace{-15pt}
+	\vspace{-12pt}
 }
 \titlespacing{\section}{0pt}{0pt}{0pt}
 

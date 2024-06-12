@@ -1,12 +1,19 @@
 import openai
 
-# create prompt
-prompt = "Take the contents of this xelatex document and write a markdown file with the same information:\n```"
-
+markdown = ""
 with open("cv.tex", "r") as f:
-    prompt += f.read()
+    markdown += f.read()
 
-prompt += "\n```"
+# create prompt
+prompt = f"""
+Take the contents of this xelatex document and write a markdown file with the same information:
+
+```
+{markdown}
+```
+
+DO NOT include "```" in the markdown file. only the contents of the markdown file should be included.
+"""
 
 # Get response
 response = openai.chat.completions.create(
@@ -17,9 +24,6 @@ response = openai.chat.completions.create(
 )
 
 payload = response.choices[0].message.content
-
-# Remove any "```" in the response
-payload = payload.replace("```", "")
 
 # Write response to file
 with open("cv.md", "w") as f:

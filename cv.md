@@ -1,4 +1,3 @@
-```markdown
 # Rasmus Wejlgaard
 
 [pez@pez.sh](mailto:pez@pez.sh) | +447570186729 

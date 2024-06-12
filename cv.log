@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.9)  11 JUN 2024 21:15
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.9)  12 JUN 2024 09:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/workdir/cv.tex
-(/workdir/cv.tex
+**/github/workspace/cv.tex
+(/github/workspace/cv.tex
 LaTeX2e <2024-06-01>
 L3 programming layer <2024-05-27>
 (./cv.cls
@@ -656,11 +656,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  16620 strings out of 474256
- 312675 string characters out of 5742728
+ 312702 string characters out of 5742728
  1957543 words of memory out of 5000000
  39087 multiletter control sequences out of 15000+600000
  558725 words of font info for 74 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,5n,139p,261b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,5n,139p,270b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv.pdf (1 page).

@@ -16,6 +16,11 @@ response = openai.chat.completions.create(
     ]
 )
 
+payload = response.choices[0].message.content
+
+# Remove any "```" in the response
+payload = payload.replace("```", "")
+
 # Write response to file
 with open("cv.md", "w") as f:
     f.write(response.choices[0].message.content)

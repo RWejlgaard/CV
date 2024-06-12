@@ -21,6 +21,13 @@ jobs:
         with:
           args: xelatex /github/workspace/cv.tex
 
+      - name: Update markdown version
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          pip install openai
+          python update_markdown.py
+
       - name: Commit changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
